@@ -22,4 +22,4 @@ requireComponent.keys().forEach((fileName) => {
   app.component(componentName, componentConfig.default || componentConfig)
 })
 
-app.render((h) => h(app)).$mount('#app')
+app.mount('#app')

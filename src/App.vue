@@ -1,4 +1,5 @@
 <template>
+  <img src="@/assets/logo.png" max-width="100%" />
   <router-view></router-view>
 </template>
 
@@ -40,7 +41,7 @@ a {
 }
 img {
   border-style: none;
-  width: 100%;
+  /* width: 100%; */
 }
 h1,
 h2,
