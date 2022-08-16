@@ -1,7 +1,18 @@
 # personal-website
 
-## Deploy
+## Deployment
+### Deploy to github pages
 ./deploy.sh
+
+### Deploy to aws
+## check aws s3 bucket
+```aws --region us-east-1 --profile evdev3 s3 ls s3://evan-woods-dev```
+
+## sync dist folder
+```aws --region us-west-2 --profile evdev3 s3 sync ./dist s3://evan-woods-dev --delete```
+
+## url
+http://evan-woods-dev.s3-website-us-east-1.amazonaws.com
 
 ## Project setup
 ```
