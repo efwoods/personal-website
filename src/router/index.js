@@ -1,15 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import App from '@/App.vue'
 import LoginForm from '@/views/default/LoginForm.vue'
 import DefaultVue from '@/views/default/DefaultVue.vue'
 import HelloWorld from '@/views/default/HelloWorld.vue'
 
 const routes = [
-  {
-    path: '/app',
-    name: 'App',
-    component: App,
-  },
   {
     path: '/default',
     name: 'DefaultVue',
