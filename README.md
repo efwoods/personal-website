@@ -1,4 +1,7 @@
-# vue-template
+# personal-website
+
+## Deploy
+./deploy.sh
 
 ## Project setup
 ```
