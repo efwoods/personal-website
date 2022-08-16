@@ -6,7 +6,7 @@ import HelloWorld from '@/views/default/HelloWorld.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/app',
     name: 'App',
     component: App,
   },
@@ -21,7 +21,7 @@ const routes = [
     component: LoginForm,
   },
   {
-    path: '/helloworld',
+    path: '/',
     name: 'HelloWorld',
     component: HelloWorld,
     props: { msg: 'Welcome to Your Vue.js App' },
